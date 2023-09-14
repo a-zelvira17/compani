@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: var(--Dark, #2F343A);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+#header{
+    padding: 40px 0;
+}
+.header{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-text{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo h4{
+    margin: 0 0 0 25px;
+    color: #FFF;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.7px;
+}
+.header-title{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title h4{
+    color: #FFF;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.7px;
+}
+
+
+
+
+
+
+
+
+
+.hero-text h1{
+    color: var(--White, #FFF);
+text-align: center;
+
+/* h1 */
+font-size: 64px;
+font-weight: 700;
+letter-spacing: 3.2px;
+text-transform: uppercase;
+}
+.hero-text p{
+    margin: 35px 500px;
+    width: 777px;
+    color: var(--White, #FFF);
+text-align: center;
+
+/* p > h1, h2 */
+font-size: 18px;
+font-weight: 400;
+line-height: 158.203%; 
+}
